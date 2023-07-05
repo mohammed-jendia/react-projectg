@@ -1,0 +1,85 @@
+.MyPosts{
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.MyPostRow{
+    margin-left: 110px;
+}
+
+.MyPosts .title h3{
+    margin-left: 110px;
+    margin-bottom: -60px;
+}
+
+.MyPosts .Allposts .Featured {
+    margin-top: 25px;
+}
+
+.MyPosts .container{
+    margin-right: none !important;
+}
+
+
+
+@media  (max-width: 576px) {
+
+  .MyPosts {
+    margin-top: 70px;
+}
+
+.MyPosts .title h3 {
+    margin-left: 0px;
+}
+
+  .MyPostRow {
+    margin-left: 0px;
+}
+
+.Featured h3 {
+    margin: 10px 0;
+}
+
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .MyPosts {
+        margin-top: 70px;
+    }
+
+    .MyPosts .title h3 {
+        margin-left: 0px;
+    }
+
+    .MyPostRow {
+        margin-left: 0px;
+    }
+
+    .Featured h3 {
+        margin: 10px 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .MyPosts {
+        margin-top: 70px;
+    }
+
+    .MyPostRow {
+        margin-left: 0px;
+    }
+
+    .Allposts .Featured p {
+        display: flex;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .MyPostRow {
+        margin-left: 20px;
+    }
+
+  }

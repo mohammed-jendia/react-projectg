@@ -1,0 +1,38 @@
+.button a{
+    width: 190px;
+    height: 53px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-Button a{
+    background-color: #FFD050;
+    color: #232536 ;
+}
+
+.yellow-Button a:hover{
+    background-color: #232536;
+    color: white ;
+    transition: all .3s
+}
+
+
+.White-Button a{
+    background-color: white;
+    color: #232536 ;
+    width: 170px;
+    height: 59px;
+}
+
+.White-Button a:hover{
+    background-color: #232536;
+    color: white ;
+    transition: all .3s
+}
+
+.button svg{
+    margin-left: 6px;
+    margin-top: 3px;
+}

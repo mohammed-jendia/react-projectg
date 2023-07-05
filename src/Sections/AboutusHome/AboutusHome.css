@@ -1,0 +1,138 @@
+
+.about{
+    background-color: #F4F0F8;
+    width: 100%;
+    height: auto;
+    padding: 65px;
+    opacity: 0.9;
+}
+
+.about h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about h3{
+    line-height: 40px;
+    color: #232536;
+    margin: 20px 0;
+    font-size: 30px !important;
+}
+
+.about h4{
+    margin: 23px 0;
+    font-size: 25px !important;
+}
+
+.our-mision p{
+    line-height: 26px;
+}
+
+.about-us a{
+    color:#592EA9;
+    font-weight: bold;
+}
+
+.background .divLift{
+    background-color: #FFD050;
+    height: 20px;
+    width: 54%;
+    margin-left: 223px;
+    margin-bottom: -20px;
+}
+
+.background .divRight{
+    background-color: #592EA9;
+    height: 20px;
+    width: 26%;
+    margin-left: 822px;
+}
+
+
+
+@media  (max-width: 576px) {
+
+     .background{
+        display: none;
+     }
+
+     .about{
+        padding: 30px;
+    }
+
+     .about h3{
+        font-size: 22px !important;
+        line-height: 30px;
+     }
+
+     .about h4{
+        font-size: 18px !important;
+    }
+
+     .our-mision {
+        margin-top: 40px;
+    }
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .background{
+        display: none;
+     }
+
+     .about{
+        padding: 48px;
+    }
+
+     .about h3{
+        font-size: 25px !important;
+        line-height: 30px;
+     }
+
+     .about h4{
+        font-size: 20px !important;
+    }
+     
+     .our-mision {
+        margin-top: 40px;
+    }
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+     .background{
+        display: none;
+     }
+
+     .about h3{
+        font-size: 28px !important;
+     }
+
+     .about h4{
+        font-size: 21px !important;
+    }
+    
+    .about .our-mision {
+        margin-top: 40px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+     .AboutusHome .background{
+        display: none;
+     }
+
+     .about{
+        padding: 38px;
+    }
+
+     .about h3{
+        font-size: 28px !important;
+     }
+
+     .about h4{
+        font-size: 23px !important;
+    }
+
+  }

@@ -1,0 +1,88 @@
+
+.frends{
+    margin-top: 70px;
+    position: relative;
+
+}
+
+.frends .frends-img img{
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+}
+
+.divText{
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    width: 54%;
+    right: 0%;
+    height: auto;
+    padding: 58px;
+}
+
+.divText h6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16ps !important;
+}
+
+.divText h2{
+    margin: 23px 0;
+    line-height: 50px;
+    opacity: 0.9;
+}
+
+.divText p{
+    margin-bottom: 30px;
+}
+
+
+
+@media  (max-width: 576px) {
+
+  .frends {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+
+  .divText {
+    position: inherit;
+    width: 100%;
+    padding: 59px 23px;
+}
+
+.divText h2{
+    line-height: 35px;
+}
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+     .frends {
+        margin-top: 50px;
+        margin-bottom: -30px;
+      }
+      
+     .divText {
+        position: inherit;
+        width: 100%;
+        padding: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .divText {
+        position: inherit;
+        width: 100%;
+        padding: 59px 0;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .divText{
+        padding-right: 0px;
+    }
+  }

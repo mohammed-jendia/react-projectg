@@ -1,0 +1,63 @@
+.Authors{
+    margin-bottom: 50px;
+}
+
+.card-Authors{
+    background-color: #F4F4F4;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.card-Authors:hover{
+    background-color: #FBF6EA;
+}
+
+.card-Authors h4{
+    margin-top: 15px;
+}
+
+.card-Authors p{
+    font-size: 14px;
+}
+
+.card-Authors svg {
+    margin: 0 8px;
+
+}
+.card-Authors img{
+    width: auto !important;
+}
+
+
+@media  (max-width: 576px) {
+     
+  .card-Authors{
+   margin-bottom: 27px;
+}
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .card-Authors{
+        margin-bottom: 27px;
+     }
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+     body{
+         border: 1px solid yellow;
+     }
+    
+     .card-Authors{
+        margin-bottom: 27px;
+     }
+     
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .card-Authors{
+        margin-bottom: 27px;
+        padding: 30px 20px;
+     }
+
+  }

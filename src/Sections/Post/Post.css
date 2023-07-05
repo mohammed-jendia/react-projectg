@@ -1,0 +1,47 @@
+.featured{
+    border: 0.1px solid #e5e5e7;
+    padding: 28px;
+}
+
+.featured img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.post h6{
+    font-size: 14px;
+    margin-top: 31px;
+    color: #4C4C4C;
+    
+}
+
+.post h6 span{
+    color: #592EA9;
+}
+
+.post h4{
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin: 20px 0;
+  }
+
+.All-Posts{
+    padding: 10px;
+    margin-top: -8px;
+}
+
+.All-Posts:hover{
+    background-color: #FBF6EA;
+}
+
+.All-Posts h5 {
+    padding: 0 82px 0 43px;
+    font-weight: 700 !important;
+}
+
+.All-Posts h6{
+    padding: 0 82px 0 43px;
+    margin-bottom: 15px;
+}

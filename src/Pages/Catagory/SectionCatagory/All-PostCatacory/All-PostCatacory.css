@@ -1,0 +1,228 @@
+.AllPostCatacory{
+    margin-top: 80px ;
+    margin-bottom: 90px;
+    display: flex;
+    opacity: 0.9;
+    
+}
+
+.AllPostCatacory .row{
+    padding-top: 30px;
+}
+
+.PostRowCatacory .Featured{
+    margin-top: 30px;
+}
+
+.img-catadory img{
+    height: 270px !important;
+    max-height: 100%;
+}
+
+.box-catadory{
+  margin-top: 40px;
+}
+
+.box-catadory h3{
+    padding-bottom: 20px;
+}
+
+.AllPostCatacory .card-Catagory {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid #bdbdbd;
+    margin: 25px 0;
+    width: 260px;
+}
+
+
+.AllPostCatacory .card-Catagory h4 {
+    margin-left: 15px;
+}
+
+.box-catadory img{
+    width: auto !important;
+}
+
+.All-Tags{
+    margin-top: 60px;
+}
+
+.divTags{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.divTags .Tag{
+    padding: 6px 20px;
+    border: 2px solid #bdbdbd;
+    border-radius: 30px;
+    margin: 8px;
+}
+
+.divTags .Tag1{
+    padding: 5px 25px;
+}
+.divTags .Tag2{
+    padding: 5px 35px;
+}
+.divTags .Tag3{
+    padding: 5px 20px;
+}
+.divTags .Tag4{
+    padding: 5px 45px;
+}
+.divTags .Tag5{
+    padding: 5px 45px;
+}
+.divTags .Tag6{
+    padding: 5px 30px;
+}
+
+.divTags .Tag h6{
+    margin-top: 7px;
+}
+
+
+@media  (max-width: 576px) {
+
+  .img-catadory img{
+    height: auto !important;
+}
+
+.Featured h3 {
+    margin: 10px 0;
+}
+
+  .AllPostCatacory .card-Catagory {
+    margin: 10px 0;
+    width: 165px;
+}
+
+.card-Catagory {
+    padding: 10px 10px;
+}
+
+.All-Tags {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.AllPostCatacory {
+    display: block;
+}
+
+.box-catadory{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divTags .Tag1 {
+    padding: 5px 15px;
+}
+.divTags .Tag2 {
+    padding: 5px 10px;
+}
+.divTags .Tag3 {
+    padding: 5px 13px;
+}
+.divTags .Tag4 {
+    padding: 5px 15px;
+}
+.divTags .Tag5 {
+    padding: 5px 20px;
+}
+.divTags .Tag6 {
+    padding: 5px 20px;
+}
+
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .AllPostCatacory {
+        display: block;
+    }
+
+    .box-catadory{
+        display: flex;
+    }
+
+    .AllPostCatacory .card-Catagory {
+        margin: 10px 0;
+        width: 185px;
+    }
+
+    .card-Catagory {
+        padding: 15px 15px;
+    }
+
+    .All-Tags {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .Allposts .Featured p {
+        display: none;
+    }
+
+    .img-catadory img{
+        height: auto !important;
+    }
+
+    .PostRowCatacory .Featured {
+        margin-top: 0px;
+    }
+
+    .Featured h3 {
+        margin-top: 13px;
+        font-size: 25px !important;
+    }
+
+    .box-catadory {
+        margin-top: 30px;
+    }
+
+    .AllPostCatacory .card-Catagory {
+        margin: 25px 0;
+        width: 200px;
+    }
+
+    .All-Tags {
+        display: none;
+    }
+    
+    
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .AllPostCatacory .card-Catagory {
+        width: 240px;
+    }
+
+    .divTags .Tag1 {
+        padding: 5px 20px;
+    }
+    .divTags .Tag2 {
+        padding: 5px 20px;
+    }
+    .divTags .Tag3 {
+        padding: 5px 18px;
+    }
+    .divTags .Tag4 {
+        padding: 5px 25px;
+    }
+    .divTags .Tag5 {
+        padding: 5px 30px;
+    }
+    .divTags .Tag6 {
+        padding: 5px 25px;
+    }
+  }

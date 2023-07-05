@@ -1,0 +1,176 @@
+.Conversation{
+}
+
+.contact-text{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.h6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15 !important;
+}
+
+.contact-text h2{
+    padding: 10px 0px 25px 0px;
+    opacity: 0.9;
+}
+
+.divBlue{
+    background-color: #592EA9;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around;
+    width: 64%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 50px 20px;
+    color: white !important;
+    margin-bottom: 30px;
+}
+
+.divBlue p{
+    color:#adadad !important;
+}
+
+
+.divBlue hr{
+    width: 100%;
+    background-color: #767676  !important;
+}
+
+.divBlue h5{
+    font-size: 18px !important;
+    margin-top: 4px;
+    line-height: 31px;
+    font-weight: 500 !important;
+}
+
+
+.contact{
+    margin-right: 136px;
+    margin-bottom: 30px;
+}
+
+.contact-form form{
+    display: block;
+
+}
+
+.contact-form form input, select{
+    display: block;
+    width: 64%;
+    margin-bottom: 15px;
+    padding: 35px;
+    margin: 15px auto;
+    background-color: white;
+    border: 1px solid rgb(153 154 167 / 50%);
+}
+.contact-form form select{
+    margin: auto;
+    padding: 23px;
+    color:#77777a;;
+}
+
+.contact-form form  .Message{
+    height: 130px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.send-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.send-btn .button a {
+    width: 712px;
+    height: 60px;
+}
+
+
+
+
+@media  (max-width: 576px) {
+
+  .divBlue{
+    width: 100%;
+}
+
+.contact {
+    margin-right: 0px;
+}
+
+.contact-form form input, select {
+    width: 100%;
+}
+
+.send-btn .button a {
+    width: 300px;
+}
+
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+     
+     .divBlue{
+        width: 100%;
+    }
+
+    .contact {
+        margin-right: 0px;
+    }
+
+    .contact-form form input, select {
+        width: 100%;
+    }
+
+    .send-btn .button a {
+        width: 510px;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .divBlue{
+        width: 100%;
+    }
+
+     .contact {
+        margin-right: 0px;
+    }
+
+    .contact-form form input, select {
+        width: 100%;
+    }
+
+    .send-btn .button a {
+        width: 698px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .contact {
+        margin-right: 40px;
+    }
+
+    .divBlue{
+        width: 75%;
+    }
+
+    .contact-form form input, select {
+        width: 75%;
+    }
+
+    .send-btn .button a {
+        width: 698px;
+    }
+
+  }

@@ -1,0 +1,94 @@
+.Allposts{
+    margin-top: 70px;
+}
+
+.Allposts hr {
+    margin-top: -1rem;
+    margin-bottom: 0rem;
+}
+
+.Allposts .row{
+    padding-top: 70px;
+}
+
+.Allposts .Featured{
+    margin-top: 50px;
+}
+
+.Allposts .Featured h6{
+    color: #592EA9;
+}
+
+.Allposts .Featured p{
+    padding-right: 20px;
+}
+
+.Allposts .Stock{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Stock a{
+    color: #6D6E76;
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Stock a:hover{
+    color: #232536;
+    transition: all 0.3s ease;
+}
+
+
+
+@media  (max-width: 576px) {
+
+  .Allposts .row {
+    padding-top: 60px;
+}
+
+.Allposts .Featured {
+    margin-top: 30px;
+}
+
+  .Allposts .Stock{
+    margin-top: 30px;
+}
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .Allposts .row {
+        padding-top: 60px;
+    }
+
+    .Allposts .Featured {
+        margin-top: 30px;
+    }
+
+    .Allposts .Stock{
+        margin-top: 30px;
+    }
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .Allposts .Featured{
+        margin-top: 0px;
+    }
+
+    .Featured h3 {
+        margin: 5px 0;
+    }
+
+    .Allposts .row {
+        padding-top: 50px;
+    }
+
+    .Allposts .Stock{
+        margin-top: 30px;
+    }
+    
+  }

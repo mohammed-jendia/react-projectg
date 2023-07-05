@@ -1,0 +1,226 @@
+.logo-images{
+    margin: 30px 0px ;
+    opacity: 0.8;
+}
+
+.logo-images .Featured{
+    margin-top: -15px;
+}
+
+/*****/
+.people-say{
+    background-color: #FBF6EA;
+    margin-top: 100px;
+    padding: 100px 100px 80px 100px;
+}
+
+.left-text{
+    position: relative;
+    opacity: 0.9;
+}
+
+.left-text h6{
+    letter-spacing: 3px;
+}
+
+.left-text h3{
+    margin: 20px 0;
+}
+
+.left-text p{
+    color:   #232536 !important;
+}
+
+.left-text::after{
+    content: '';
+    background-color: #6D6E76;
+    width: 1px;
+    height: 355px;
+    position: absolute;
+    right: 75px;
+    top: -17%;
+    opacity: 0.4;
+}
+
+.right-text{
+    opacity: 0.9;
+}
+
+.right-text h5{
+    line-height: 30px;
+}
+
+.persone{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persone h5{
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.persone p{
+    font-weight: 400;
+}
+
+.person-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-profile img{
+    margin-bottom: 25px;
+    width: auto !important;
+}
+
+.Stock-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StockLeft ,.StockRight{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Stock-icon a{
+    color: #232536 !important;
+}
+
+.Stock-icon a:hover{
+    color: white !important;
+}
+
+.StockRight {
+    margin-left: 20px;
+}
+
+.StockRight:hover{
+    background-color:  #232536;
+    color: white;
+    transition: all .3s ease-in-out;
+    transform: scale(1.4 ,1.4);
+}
+
+.StockLeft:hover{
+    background-color:  #232536;
+    color: white;
+    transition: all .3s ease-in-out;
+    transform: scale(1.4 ,1.4);
+}
+
+
+@media  (max-width: 576px) {
+
+  .logo-images {
+    text-align: center;
+}
+
+  .logo-images img{
+    margin-bottom: 15px;
+    width: auto !important;
+}
+
+.left-text::after{
+    display: none;
+}
+
+.people-say {
+    padding: 70px 40px;
+}
+
+.right-text h5 {
+    margin-top: 30px;
+}
+
+.persone {
+    margin-top: 60px;
+}
+
+.StockRight {
+    margin-left: 15px;
+}
+
+.StockLeft, .StockRight {
+    padding: 8px;
+}
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+     .logo-images .Featured {
+        margin-top: -25px;
+    }
+
+    .logo-images img{
+        margin-bottom: 15px;
+        width: auto !important;
+    }
+
+    .left-text::after{
+        display: none;
+    }
+
+    .people-say {
+        padding: 70px 60px;
+    }
+
+    .right-text h5 {
+        margin-top: 30px;
+    }
+
+    .persone {
+        margin-top: 60px;
+    }
+
+    .StockRight {
+        margin-left: 15px;
+    }
+
+    .StockLeft, .StockRight {
+        padding: 8px;
+    }
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .logo-images .Featured {
+        margin-top: -25px;
+    }
+
+    .logo-images img{
+        margin-bottom: 15px;
+        width: auto !important;
+    }
+
+    .left-text::after{
+        display: none;
+    }
+     
+    .people-say {
+        padding: 70px 25px;
+    }
+
+    .StockRight {
+        margin-left: 15px;
+    }
+
+    .StockLeft, .StockRight {
+        padding: 8px;
+    }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .people-say {
+        padding: 100px 75px 80px 75px;
+        padding: 70px 25px;
+    }
+
+  }

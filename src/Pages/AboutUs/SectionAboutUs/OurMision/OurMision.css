@@ -1,0 +1,39 @@
+.OurMision{
+   margin-top:-50px ; 
+   z-index: 2;
+}
+
+.OurMision .about{
+    padding-top: 106px;
+}
+
+@media  (max-width: 576px) {
+
+  .OurMision .about {
+    padding-top: 70px;
+}
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .OurMision .about {
+        padding-top: 70px;
+    }
+
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .OurMision .about {
+        padding-top: 70px;
+    }
+
+     .about {
+        padding: 38px;
+     }
+
+     .our-mision {
+        margin-top: 0px;
+    }
+    
+  }

@@ -1,0 +1,17 @@
+.join{
+    text-align: center;
+    display: block;
+    margin: 60px 0;
+    margin-bottom: 110px;
+}
+
+.join p{
+    margin-bottom: 37px;
+    margin-top: -27px;
+}
+
+.butn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

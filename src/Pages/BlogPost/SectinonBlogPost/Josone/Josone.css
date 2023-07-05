@@ -1,0 +1,60 @@
+.Josone{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Andrew{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.person-profile{
+    margin-bottom: -20px;
+}
+
+.person-profile h5{
+    color: #592EA9;
+    opacity: 0.9;
+}
+
+.person-profile p{
+    font-weight: 400;
+}
+.Andrew h2{
+    margin: 35px 0;
+}
+
+.Andrew img{
+    width: auto !important;
+    padding-right: 15px;
+}
+
+.larg-text{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    margin-top: 20px;
+
+}
+
+.larg-text h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.larg-text img{
+    width: auto !important;
+}
+
+
+.pointer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.pointer .leftFlex img{
+    padding-right: 10px;
+}

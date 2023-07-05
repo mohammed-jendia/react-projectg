@@ -1,0 +1,164 @@
+.StartedAbout{
+    margin-top: 180px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.divText2{
+    background-color: white;
+    position: absolute;
+    top: -50%;
+    width: 80%;
+    left: 17%;
+    height: auto;
+    padding: 50px;
+}
+
+.divText2 h2{
+    line-height: 56px;
+    margin-top: 15px;
+}
+
+.StartedAbout p{
+    margin-bottom: 75px;
+}
+
+.divYellow{
+    background-color: #FFD050;
+    height: 145px;
+    width: 50%;
+    margin-left: 93px;
+    position: absolute;
+    top: 71%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+
+.divYellow p{
+    color: black;
+    opacity: 0.9;
+}
+
+.StartedAbout .background .divLift {
+    background-color: #FFD050;
+    height: 20px;
+    width: 40%;
+    margin-left: 378px;
+    position: absolute;
+    margin-top: -20px;
+    z-index: 3;
+}
+
+.StartedAbout .divRight {
+    background-color: #592EA9;
+    height: 20px;
+    width: 25%;
+    position: absolute;
+    margin-left: 92px;
+    z-index: 3;
+    margin-top: -20px;
+}
+
+
+@media  (max-width: 576px) {
+
+  .StartedAbout{
+    margin-top: 70px;
+}
+
+ .divText2 {
+    position: initial;
+    padding: 0px;
+}
+
+.divText2 h2 {
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.StartedAbout p{
+    margin-bottom: 40px;
+}
+
+.divYellow{
+    display: none;
+}
+
+.frends-img img{
+    margin-bottom: 80px;
+}
+     
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .StartedAbout{
+        margin-top: 90px;
+
+    }
+
+     .divText2 {
+        position: initial;
+        padding: 0px;
+    }
+
+    .divText2 h2 {
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+
+    .StartedAbout p{
+        margin-bottom: 40px;
+    }
+
+    .divYellow{
+        display: none;
+    }
+
+    .frends-img img{
+        margin-bottom: 100px;
+    }
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .StartedAbout{
+        margin-top: 100px;
+
+    }
+
+     .divText2 {
+        position: initial;
+        padding: 0px;
+    }
+
+    .divText2 h2 {
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .StartedAbout p{
+        margin-bottom: 40px;
+    }
+
+    .divYellow{
+        display: none;
+    }
+
+    .frends-img img{
+        margin-bottom: 100px;
+    }
+    
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .divText2 h2 {
+        line-height: 45px;
+    }
+
+    .StartedAbout .background .divLift {
+        margin-left: 332px;
+    }
+
+  }

@@ -1,0 +1,129 @@
+.Welcome{
+    background-color: #F4F0F8;
+}
+
+.AndrewJonhson{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0;
+    opacity: 0.9;
+}
+
+.AndrewJonhson img{
+    width: auto !important;
+}
+
+.text-Andrew{
+    margin-top: 12px;
+}
+
+.text-Andrew h2{
+    font-size:39px !important;
+    line-height: 55px;
+}
+
+.text-Andrew p{
+    margin-top: 25px;
+}
+
+.text-Andrew .socialMedia{
+    margin-left: -8px;
+    color: black;
+}
+
+.text-Andrew .socialMedia svg{
+    margin: 0 8px;
+}
+
+
+.Welcome .background .divLift {
+    background-color: #FFD050;
+    height: 20px;
+    width: 52%;
+    position: absolute;
+    left: -5px;
+    margin-bottom: -18px;
+}
+
+.Welcome .background .divRight {
+    background-color: #592EA9;
+    height: 20px;
+    width: 19%;
+    position: absolute;
+    right: 172px;
+    z-index: 3;
+}
+
+
+@media  (max-width: 576px) {
+
+  .AndrewJonhson {
+    padding: 70px 0;
+  }
+
+  .AndrewJonhson img {
+    width: 100% !important;
+}
+
+.text-Andrew {
+    margin-top: 30px;
+}
+
+ .text-Andrew h2{
+    font-size:25px !important;
+    line-height: 35px;
+}
+
+.text-Andrew p {
+    margin-top: 15px;
+}
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .AndrewJonhson img {
+        width: 100% !important;
+    }
+
+    .text-Andrew {
+        margin-top: 40px;
+    }
+
+     .text-Andrew h2{
+        font-size:30px !important;
+        line-height: 40px;
+    }
+
+    .text-Andrew p {
+        margin-top: 15px;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+     .text-Andrew {
+        margin-top: -8px;
+    }
+
+     .text-Andrew h2{
+        font-size:36px !important;
+        line-height: 55px;
+    }
+
+    .text-Andrew h2 {
+        font-size: 30px !important;
+        line-height: 37px;
+    }
+
+    .text-Andrew p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    
+  }
+
+

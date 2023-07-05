@@ -1,0 +1,33 @@
+.Business{
+    background-color: #F4F0F8;
+}
+
+.textBusiness{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.textBusiness p{
+    margin: 25px 0;
+}
+
+.textBusiness span{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.textBusiness svg{
+    margin-top: -3px;
+}
+
+
+@media  (max-width: 576px) {
+    
+  .textBusiness span{
+    font-size: 13px;
+}
+
+  }
+  

@@ -1,0 +1,85 @@
+.Team{
+    margin-top: 100px;
+    position: relative;
+}
+
+.Team-text{
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+.Team-text h5{
+    margin: 20px 0;
+}
+
+.our-img::before{
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    background-color: #FFD050;
+    top: 23%;
+    left: -7%;
+    border-radius: 40px 0 0 0;
+}
+
+.persons{
+    padding-left: 30px;
+}
+
+.persons-img::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #592EA9;
+    top: 92%;
+    left: 20%;
+    border-radius: 50%;
+}
+
+
+@media  (max-width: 576px) {
+     
+  .Team {
+    margin-top: 35px;
+}
+
+.Team-text p{
+    margin-bottom: 40px;
+}
+
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+     .Team {
+        margin-top: 35px;
+    }
+    
+    .Team-text p{
+        margin-bottom: 40px;
+    }
+     
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+     .Team-text {
+        margin-top: -8px;
+    }
+
+    .Team-text p{
+        display: none;
+    }
+    
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+     .Team-text {
+        margin-top: -8px;
+    }
+
+    .persons-img::after {
+        top: 82%;
+    }    
+
+  }

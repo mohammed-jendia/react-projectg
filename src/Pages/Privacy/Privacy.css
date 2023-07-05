@@ -1,0 +1,34 @@
+.Privacy-background{
+    background-color: #F4F0F8;
+}
+
+.textPrivacy{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.textPrivacy p{
+    margin: 2px 0;
+}
+
+.PrivacyExplain{
+    margin: 100px auto;
+    width: 55%;
+}
+
+.PrivacyExplain p{
+    margin: 25px 0;
+}
+
+@media  (max-width: 576px) {
+
+  .PrivacyExplain {
+    width: 70%;
+}
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+     .PrivacyExplain {
+        width: 70%;
+    }
+  }
